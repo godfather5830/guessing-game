@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'MightySouly';
+    src: url('../fonts/MightySouly-lxggD.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'MightySouly', cursive;
+    overflow: hidden;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+    padding-top: 10%;
+}
+
+h1, h2, p {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #ff69b4, #ffcc00, #33ccff, #ff6347);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: #ffcc00;
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #ff69b4;
+}

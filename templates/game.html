@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body data-page="game" onload="playBackgroundMusic('game')">
+    <video autoplay muted loop id="bg-video">
+        <source src="{{ url_for('static', filename='video/3141207-uhd_3840_2160_25fps.mp4') }}" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1>🎲 Guess the Number!</h1>
+        <p>Range: {{ range_start }} - {{ range_end }}</p>
+        <p>Attempts Left: {{ attempts }}</p>
+        <p>{{ message }}</p>
+        <form action="/game" method="post">
+            <input type="number" name="guess" required>
+            <button type="submit" onclick="playButtonSound()">Guess</button>
+        </form>
+        <ul>
+            {% for hint in hints %}
+            <li>{{ hint }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body data-page="index" onload="playBackgroundMusic('index')">
+    <video autoplay muted loop id="bg-video">
+        <source src="{{ url_for('static', filename='video/3130182-uhd_3840_2160_30fps.mp4') }}" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1>🎮 Welcome to Guess the Number!</h1>
+        <form action="/start" method="post">
+            <button type="submit" onclick="playButtonSound()">Start Game</button>
+        </form>
+    </div>
+</body>
+</html>

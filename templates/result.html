@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body data-page="result-{{ result }}" onload="playBackgroundMusic('result-{{ result }}')">
+    <video autoplay muted loop id="bg-video">
+        <source src="{{ url_for('static', filename='video/' + video) }}" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1>{% if result == 'win' %} 🎉 You Won! {% else %} 😢 You Lost! {% endif %}</h1>
+        <a href="/" onclick="playButtonSound()">
+            <button>Play Again</button>
+        </a>
+    </div>
+</body>
+</html>
