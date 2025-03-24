@@ -4,7 +4,6 @@
 ;;; This is written to demonstrate this language versus the same program
 ;;; written in other languages.
 ;;;
-;;; 26-Nov-2005 Bruce Woodward  1st Edition.
 
 (defconstant scorefile "highscores_cl")
 

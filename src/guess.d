@@ -5,7 +5,6 @@
  * This is written to demonstrate this language versus the same program
  * written in other languages.
  *
- * 11-May-2005   Brendan Gregg   Created this.
  */
 
 inline string scorefile = "highscores_d";

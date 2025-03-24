@@ -3,7 +3,6 @@
 * This is written to demonstrate this language versus the same program
 * written in other languages.
 *
-* 22-Oct-2022   Daniel Eberhard   Created.
  */
 
 package main

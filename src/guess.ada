@@ -3,7 +3,7 @@
 -- This is written to demonstrate this language versus the same program
 -- written in other languages.
 --
--- 23-Oct-2004   Brendan Gregg   Created this.
+-- 
 
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Numerics.Discrete_Random;

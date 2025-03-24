@@ -1,15 +1,4 @@
-/*
- * guess_sparc.m - guessing game in SPARC assembly (with m4 preprocessor)
- *
- * This is written to demonstrate this language versus the same program
- * written in other languages.
- *
- * COMPILE:
- *	m4 < guess_sparc.m > guess.s
- *	gcc -o guess guess.s
- *
- * 14-May-2006  Brendan Gregg   Created this.
- */
+// Contents: C program to guess a number between 1 and 100
 
 define(`answer_r', l7)
 define(`guess_r', l6)

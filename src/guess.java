@@ -1,16 +1,3 @@
-/**
- * guess.java - guessing game in java
- *
- * This is written to demonstrate this language versus the same program 
- * written in other languages.
- *
- * COMPILE:
- *        javac guess.java
- * RUN:
- *    java guess
- *
- * 25-Oct-2003    Brendan Gregg   Created this.
- */
 
 import java.io.*;
 import java.lang.*;

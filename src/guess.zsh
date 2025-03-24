@@ -1,11 +1,4 @@
-#!/usr/bin/zsh
-#
-# guess.zsh - guessing game in zsh (Z Shell)
-#
-# This is written to demonstrate this language versus the same program 
-# written in other languages.
-#
-# 25-Oct-2003	Brendan Gregg	Created this.
+
 
 scorefile="highscores_zsh"
 guess=-1

@@ -6,7 +6,6 @@ c
 c COMPILE:
 c	g77 -o guess guess.for
 c
-c 26-Oct-2003   Brendan Gregg   Created this.
 
 	program game
 

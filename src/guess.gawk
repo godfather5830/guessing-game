@@ -5,7 +5,6 @@
 # This is written to demonstrate this language versus the same program 
 # written in other languages.
 #
-# 23-Mar-2006	R. Prescott Loui	Created this.
 
 BEGIN {
   scorefile = "highscores_gawk"

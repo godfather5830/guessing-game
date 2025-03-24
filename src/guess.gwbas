@@ -4,8 +4,6 @@
 4 REM written in other languages.
 5 REM
 6 REM RUN: Load using the 8x3 filename, eg LOAD"GUESS~1.GWB"
-7 REM
-8 REM 17-Oct-2004   Brendan Gregg   Created this.
 
 10 scorefile$ = "highscores_gwbas"
 20 num = 0

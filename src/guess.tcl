@@ -5,8 +5,6 @@
 # This is written to demonstrate this language versus the same program 
 # written in other languages.
 #
-# 30-Mar-2004   Brendan Gregg   Created this.
-
 set scorefile "highscores_tcl"
 set guess -1
 set num 0

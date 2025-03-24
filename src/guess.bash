@@ -5,7 +5,7 @@
 # This is written to demonstrate this language versus the same program 
 # written in other languages.
 #
-# 17-Oct-2004	Brendan Gregg	Created this.
+# 
 
 scorefile="highscores_bash"
 guess=-1

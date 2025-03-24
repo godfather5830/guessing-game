@@ -8,7 +8,6 @@
   	yorick
   	#include "guess.y"
   
-   15-May-2006  Brendan Gregg   Created this.
  */
 
 scorefile = "highscores_yorick";

@@ -7,7 +7,6 @@
  * COMPILE:
  *	 gcc -o guess guess.c
  *
- * 25-Oct-2003	Brendan Gregg	Created this.
  */
 
 #include <stdio.h>

@@ -7,7 +7,6 @@
 #	nawk -f guess.nawk	# Solaris
 #	awk -f guess.nawk	# Linux
 #
-# 25-Oct-2003   Brendan Gregg   Created this.
 
 BEGIN {
 	num = 1

@@ -4,10 +4,6 @@
 #
 # This is written to demonstrate this language versus the same program
 # written in other languages.
-#
-# 25-Oct-2003	Brendan Gregg	Created this.
-# 07-Jul-2005	Jepri		Added use strict!  Tweaked code
-# 17-Jul-2006	Mark Suter	Tweaked style
 
 use strict;
 

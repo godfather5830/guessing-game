@@ -7,7 +7,6 @@
 # COMPILE:
 #       nim compile guess.nim
 #
-# 31-Aug-2018   Scott Emmons   Created.
 #
 
 import random, strutils

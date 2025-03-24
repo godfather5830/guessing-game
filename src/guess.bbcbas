@@ -3,7 +3,6 @@
     3 REM This is written to demonstrate this language versus the same program
     4 REM written in other languages.
     5 REM
-    6 REM 17-Oct-2004   Brendan Gregg   Created this.
       
    10 scorefile$ = "highscores_bbcbas."
    20 num = 0

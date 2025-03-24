@@ -7,10 +7,6 @@
 # COMPILE:
 #	m4 < guess_x86.m > guess.s
 #	gcc -o guess guess.s
-#
-# 14-May-2006  Brendan Gregg   Created this.
-#
-
 define(PRINTF, `
 	pushl	$1
 	call	printf

@@ -4,7 +4,6 @@
   This is written to demonstrate this language versus the same program 
   written in other languages.
 
-  COMPILE: Gardens Point Modula-2,
 	gpm guess.mod2
 	build guess
 

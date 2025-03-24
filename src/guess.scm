@@ -4,8 +4,6 @@
 ;;  This is written to demonstrate this language versus the same program
 ;;  written in other languages.
 
-;; 7-Jul-2005	Jepri	Initial creation
-;;
 ;; Runs under plt scheme, possibly others as well
 ;; Lines are longer than 80 chars because in the future, we will all have 160-char monitors *and* 640 Kb of RAM
 

@@ -5,7 +5,6 @@
 # This is written to demonstrate this language versus the same program 
 # written in other languages.
 #
-# 25-Oct-2003	Brendan Gregg	Created this.
 
 set scorefile = "highscores_csh"
 set guess = -1

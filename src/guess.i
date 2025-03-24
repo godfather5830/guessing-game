@@ -11,8 +11,7 @@ NOTE		ick guess.i
 NOTE
 PLEASE NOTE COMPILE: J-INTERCAL,
 NOTE		jick guess.i
-NOTE
-NOTE 20-Oct-2004	Brendan Gregg	Created this.
+
 
 	DO .11 <- #0
 	PLEASE ABSTAIN FROM FORGETTING

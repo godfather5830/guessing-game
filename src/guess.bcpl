@@ -9,7 +9,6 @@
 	 > bcpl guess.bcpl to guess
 	 > guess
  
-  23-Oct-2004	Brendan Gregg	Created this.
 */
 
 GET "libhdr"

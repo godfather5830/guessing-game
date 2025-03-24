@@ -19,7 +19,6 @@ REM per 60 seconds), entering your name is awkward, and the highscore file
 REM has a different format).
 REM (4 temporary files are used - temp1.bat, temp2.bat, temp2.tmp, temp3.tmp)
 REM
-REM 26-Oct-2003	Brendan Gregg	Created this.
 
 SET num=1
 SET scorefile=highscores_bat

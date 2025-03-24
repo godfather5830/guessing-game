@@ -4,7 +4,6 @@
   This is written to demonstrate this language versus the same program 
   written in other languages.
 
-  16-Oct-2004   Brendan Gregg   Created this.
 *)
 
 program GuessingGame (input, output, fdata);

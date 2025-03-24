@@ -6,8 +6,6 @@
  *
  * RUN:
  *       rexx guess.rexx
- *
- * 01-Sep-2018  Scott Emmons   Created.
  */
 
 answer = random(99)+1

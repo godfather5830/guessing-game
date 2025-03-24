@@ -5,8 +5,6 @@
 # This is written to demonstrate this language versus the same program 
 # written in other languages.
 #
-# 16-Oct-2004  Brendan Gregg	Created this.
-# 17-Jan-2005  Boyd Adamson	Made more ruby-ish. Added error checks.
 
 scorefile = "highscores_rb"
 guess = -1

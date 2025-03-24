@@ -6,7 +6,6 @@
  COMPILE:
 	gcc -lstdc++ -lm -o guess guess.cpp
 
- 25-Oct-2003	Brendan Gregg	Created this.
 */
 
 #include <iostream.h>

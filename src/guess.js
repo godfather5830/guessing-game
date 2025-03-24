@@ -7,8 +7,6 @@
 // RUN:
 //       nodejs guess.js
 //
-// 01-Sep-2018   Scott Emmons   Created.
-//
 
 var readline = require('readline');
 var fs = require('fs');

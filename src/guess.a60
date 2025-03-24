@@ -7,7 +7,7 @@ begin
 
 		NOTE: This is one of many variants of Algol 60.
 		
-		16-Oct-2004	Brendan Gregg	Created this. 
+		
         ;
 
         integer answer, num, guess;
